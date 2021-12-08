@@ -1,15 +1,26 @@
+body {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently by Chrome, Edge, Opera and Firefox */
+}
+
 table {
     padding: 0;
     margin: 0;
     margin-top: 1%;
     margin-left: 1%;
     border: 1px solid black;
+    border-collapse: collapse;
 }
-
-
-/* tr {
-    display: none;
-} */
 
 td {
     padding: 0;
@@ -18,4 +29,11 @@ td {
     height: 10px;
     color: black;
     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    float: inline-end;
 }
